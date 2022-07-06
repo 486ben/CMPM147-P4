@@ -4,6 +4,8 @@ REMAKE A NEW HOPE!
 
 I would like to create a scene of star war 4 when luke and his army fight against the darth vader(emperor). Therefore, my scene will be more like a space battle war. Thank you! The blue spaceship is the darth vader(emperor side) and the red color spaceship is my draw for the luke skywalker spaceship.
 
+<h2> The target</h2>
+My target behavior for this project was each side spaceship is chase other. Sometimes, You may see the emperor's spaceship is chase(you can understand as following them)the Revolutionary's spaceship. Sometimes, You may see revolutionary 's spaceship is chase the emperor's spaceship. Both side are battle and chase each other but not destory them(lol, I did not have time to build on details. XD)
 <h2>The Flock/swarm</h2>
 <li>The Blue Spaceship(emperor)</li>
 <li>The Red Spaceshuip(luke)</li>
