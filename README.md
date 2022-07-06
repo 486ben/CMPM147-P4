@@ -6,9 +6,10 @@ I would like to create a scene of star war 4 when luke and his army fight agains
 <li>The Death Star</li>
 <li>The Yellow Star</li>
 
-<h2>Spaceship's behavior for Alignment, Coherence, and Separation</h2>
+<h2>Two Additional behaviors effect for my scene</h2>
+I create two group of the spaceship. One is the emperor side and other one is the army who against the emperor. For two additional effect, I chose the option "some other individual behavior". If you look careful, you will found out that some of the yellow star will keep moving. Each yellow star will have their own movement. I also create a explosion effect(on the middle) That's is assume the battle and a spaceship have been destory.
 
 
-
-Credit: Daniel Shiffman (https://natureofcode.com/)
-Edited by: ZhiBin Huang, Asiiah Song
+<li>Credit: Daniel Shiffman (https://natureofcode.com/)</li>
+<li>some idea from website: https://p5js.org/zh-Hans/examples/form-star.html</li>
+<li>Edited by: ZhiBin Huang, Asiiah Song</li>
