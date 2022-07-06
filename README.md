@@ -17,7 +17,8 @@ My target behavior for this project was each side spaceship is chase other. Some
 <li>The Yellow Star</li>
 <li>The Explosion</li>
 
-<h2>Two Additional behaviors effect for my scene</h2>
+<h2>Two Additional behaviors effect for my scene</h2> 
+<h3>(Professor Asiiah Song say is incorrect, so I give up. no enough time.)</h3>
 I create two group of the spaceship. One is the emperor side and other one is the army who against the emperor. For two additional effect, I chose the option "some other individual behavior". If you look careful, you will found out: In the group of yellow start. Some of the yellow star will moving around. Each yellow star will have their own movement road. Other group behaviors is explosion effect(on the middle) That's is assume the battle and a spaceship have been destory. because the explosion effect is a from inside to outside, so I add some detail that look like explosion effect.
 
 <h2>Artist statement</h2>
