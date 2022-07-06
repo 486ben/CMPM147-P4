@@ -6,7 +6,7 @@ function setup() {
 
   flock = new Flock();
   // Add an initial set of boids into the system
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 5; i++) {
     let b = new Boid(width / 2,height / 2);
     flock.addBoid(b);
   }
@@ -15,6 +15,245 @@ function setup() {
 function draw() {
   background("black");
   //background for star
+
+  //the explore for the battle
+  push();
+  strokeWeight(10);
+  translate(width * 0.75, height * 0.2);
+  rotate(frameCount / 50.0);
+  stroke('#ffff00');
+  star(0, 0, 80, 70, 40);
+  pop();
+
+  push();
+  strokeWeight(8);
+  translate(width * 0.75, height * 0.2);
+  rotate(frameCount / 50.0);
+  stroke('#ff0000');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(4);
+  translate(width * 0.75, height * 0.2);
+  rotate(frameCount / 50.0);
+  stroke('#ffa500');
+  star(0, 0, 80, 100, 40);
+  pop();
+  
+  push();
+  strokeWeight(10);
+  translate(width * 0.75, height * 0.2);
+  rotate(frameCount / 40.0);
+  stroke('#ffff00');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(8);
+  translate(width * 0.75, height * 0.2);
+  rotate(frameCount / 50.0);
+  stroke('#ff0000');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(4);
+  translate(width * 0.75, height * 0.2);
+  rotate(frameCount / 50.0);
+  stroke('#ffa500');
+  star(0, 0, 80, 100, 40);
+  pop();
+  
+  //the explore for battle.
+  push();
+  strokeWeight(10);
+  translate(width * 0.2, height * 0.3);
+  rotate(frameCount / 50.0);
+  stroke('#ffff00');
+  star(0, 0, 80, 70, 40);
+  pop();
+
+  push();
+  strokeWeight(8);
+  translate(width * 0.2, height * 0.3);
+  rotate(frameCount / 50.0);
+  stroke('#ff0000');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(4);
+  translate(width * 0.2, height * 0.3);
+  rotate(frameCount / 50.0);
+  stroke('#ffa500');
+  star(0, 0, 80, 100, 40);
+  pop();
+  
+  push();
+  strokeWeight(10);
+  translate(width * 0.2, height * 0.3);
+  rotate(frameCount / 40.0);
+  stroke('#ffff00');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(8);
+  translate(width * 0.2, height * 0.3);
+  rotate(frameCount / 50.0);
+  stroke('#ff0000');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(4);
+  translate(width * 0.2, height * 0.3);
+  rotate(frameCount / 50.0);
+  stroke('#ffa500');
+  star(0, 0, 80, 100, 40);
+  pop();
+  //////////////////
+  
+  //the explore for battle.
+  push();
+  strokeWeight(10);
+  translate(width * 0.5, height * 0.5);
+  rotate(frameCount / 50.0);
+  stroke('#ffff00');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(8);
+  translate(width * 0.5, height * 0.5);
+  rotate(frameCount / 50.0);
+  stroke('#ff0000');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(4);
+  translate(width * 0.5, height * 0.5);
+  rotate(frameCount / 50.0);
+  stroke('#ffa500');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(10);
+  translate(width * 0.5, height * 0.5);
+  rotate(frameCount / 40.0);
+  stroke('#ffff00');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(8);
+  translate(width * 0.5, height * 0.5);
+  rotate(frameCount / 50.0);
+  stroke('#ff0000');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  push();
+  strokeWeight(4);
+  translate(width * 0.5, height * 0.5);
+  rotate(frameCount / 50.0);
+  stroke('#ffa500');
+  star(0, 0, 80, 100, 40);
+  pop();
+
+  //the movement star
+  push();
+  strokeWeight(8);
+  translate(200, 300);
+  rotate(frameCount/-100.0);
+  stroke('#ffd700');
+  star(40, 50, 30, 70, 5);
+  pop();
+
+  push();
+  strokeWeight(8);
+  translate(200, 300);
+  rotate(frameCount/-100.0);
+  stroke('#ffd700');
+  star(-50, 40, 30, 70, 5);
+  pop();
+
+  push();
+  strokeWeight(8);
+  translate(10, 10);
+  rotate(frameCount/80);
+  stroke('#ffd700');
+  star(160, 250, 30, 70, 5);
+  pop();
+
+  push();
+  strokeWeight(8);
+  translate(150, 10);
+  rotate(frameCount/20);
+  stroke('#ffd700');
+  star(60, 260, 30, 70, 5);
+  pop(); 
+
+  push();
+  strokeWeight(8);
+  rotate(frameCount/100.0);
+  stroke('#ffd700');
+  star(220, 50, 30, 70, 5);
+  pop(); 
+
+  push();
+  strokeWeight(8);
+  rotate(frameCount/100.0);
+  stroke('#ffd700');
+  star(740, 50, 30, 70, 5);
+  pop(); 
+
+  push();
+  strokeWeight(8);
+  rotate(frameCount/200.0);
+  stroke('#ffd700');
+  star(780, 260, 30, 70, 5); 
+  pop(); 
+
+  push();
+  strokeWeight(8);
+  rotate(frameCount/200.0);
+  stroke('#ffd700');
+  star(350, 350, 30, 70, 5); 
+  pop(); 
+
+  push();
+  strokeWeight(8);
+  rotate(frameCount/500);
+  stroke('#ffd700');
+  star(380, 50, 30, 70, 5);
+  pop(); 
+
+  push();
+  strokeWeight(8);
+  rotate(frameCount/600);
+  stroke('#ffd700');
+  star(420, 50, 30, 70, 5);
+  pop(); 
+
+  push();
+  strokeWeight(8);
+  rotate(frameCount/900);
+  stroke('#ffd700');
+  star(760, 260, 30, 70, 5); 
+  pop(); 
+
+  push();
+  strokeWeight(8);
+  rotate(frameCount/700);
+  stroke('#ffd700');
+  star(300, 350, 30, 70, 5);
+  pop();
+
+  //star does not move
   push();
   strokeWeight(8);
   stroke('#ffd700');
